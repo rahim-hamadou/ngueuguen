@@ -5,7 +5,7 @@ function ContactForm() {
 	return (
 		<form
 			className={styles.contact_container}
-			action="mailto:techeaseassociation@gmail.com"
+			action="mailto:tchaleu233@yahoo.fr"
 			method="get"
 			encType="text/plain"
 		>

@@ -16,11 +16,15 @@
 	white-space: normal;
 	margin: 5px;
 	padding: 5px;
-	height: 180px;
+	/* height: 180px; */
 }
 
 .title_card {
 	font-family: "Comic Neue", cursive;
 	padding: 10px;
-	color: black;
+}
+
+.content_container {
+	min-height: 150px;
+	border: 2px solid red !important;
 }

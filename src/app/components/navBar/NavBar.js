@@ -12,11 +12,11 @@ function NavBar() {
 	};
 
 	return (
-		<nav className="navBar_container bg-amber-300 hover:bg-amber-400 p-4 ">
+		<nav className="navBar_container bg-sky-800 hover:bg-sky-700 p-4 ">
 			<div className="container mx-auto">
 				<div className="flex  justify-between">
-					<Link href="/" className=" text-xl font-bold">
-						TakeCare
+					<Link href="/" className=" text-xl font-bold hover:text-white">
+						NGUEUGUEN MERE & FILS
 					</Link>
 					<div className="lg:hidden">
 						<button onClick={toggleMenu} className=" focus:outline-none">

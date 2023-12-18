@@ -6,23 +6,24 @@ import ContactPhone from "../components/contactphone/ContactPhone.js";
 
 function contact() {
 	let dataContact = {
-		title: "TakeCare",
-		title_head: `Posez-nous vos questions, nous avons les réponses!`,
-		location: "Ile-De-France",
-		invitation: `Chez TakeCare, nous sommes déterminés à offrir des services de puériculture exceptionnels, adaptés à vos besoins uniques. Si vous avez des questions, des demandes spécifiques ou si vous souhaitez en savoir plus sur nos offres, n'hésitez pas à nous contacter.
-		
+		title: "NGUEUGUEN MERE & FILS",
+		title_head: `Soyez Acteur du Bien-Etre de vos proches et du Votre  !`,
+		location: "Montreuil et villes proches",
+		invitation: `Avez-vous pensé à investir dans votre bien-être quotidien ? Notre service, basé à Montreuil, se dédie à stimuler, valoriser, et contribuer à la réactivation de votre motricité pour améliorer votre qualité de vie.
 
-		Notre équipe dévouée est là pour répondre à toutes vos interrogations et discuter de la manière dont TakeCare peut contribuer au bien-être de votre famille. Votre tranquillité d'esprit commence ici !
+		Nous croyons en la qualité, en l'efficacité, et des prix équitables. Pourquoi ne pas discuter de vos besoins particuliers et découvrir comment nous pouvons personnaliser nos services pour vous ? Notre engagement envers votre bien-être va au-delà des soins physiques ; il vise à instiller de la joie, de la confiance et à promouvoir un état d'esprit positif.
+		
+		Contactez-nous dès aujourd'hui pour une évaluation personnalisée. Ensemble, explorons les moyens d'optimiser votre bien-être quotidien.
 		`,
 		salutation: `
-		Prenez soin de vos petits trésors avec TakeCare.`,
+		Au plaisir de contribuer à votre épanouissement !`,
 	};
 	return (
 		<>
 			<NavBar />
 			<div className="container_body">
 				<div className="contact_section">
-					<h1 className="home_header_title text-center mb-5">{dataContact.title_head}</h1>
+					<h1 className="home_header_title text-center mb-5 font-bold">{dataContact.title_head}</h1>
 					<p className="invitation">{dataContact.invitation}</p>
 				</div>
 				{/* <Card /> */}

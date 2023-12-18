@@ -24,16 +24,20 @@ body {
 }
 
 .body_head_container {
-	background-image: url("/sleep.jpg");
-
+	background-image: url("/old_tea.jpg");
 	/* background-color: aquamarine; */
 	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 /* .body_head_container:hover {
 	backdrop-filter: blur(2px);
 } */
 
+a:hover {
+	color: white;
+	/* color: #294b84; */
+}
 .container_body {
 	padding: 20px 0;
 	min-height: 100vh;
@@ -50,7 +54,7 @@ body {
 }
 @media only screen and (max-width: 600px) {
 	.action_call {
-		flex-direction: row;
+		flex-direction: column;
 	}
 }
 
@@ -63,7 +67,7 @@ body {
 @media only screen and (max-width: 600px) {
 	.icon {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		margin: 5px;
 	}
 }

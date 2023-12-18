@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "TakeCare Raihana",
-	description: "Puericulture Services",
+	title: "NGUEUGUEN MERE & FILS",
+	description: "SOUTIEN DANS LES ACTES DE LA VIE QUOTIDIENNE.",
 };
 
 export default function RootLayout({ children }) {
